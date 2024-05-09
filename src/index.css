@@ -1,0 +1,3711 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background: rgb(48, 47, 48) !important;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar .nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 50px;
+  transition: .5s ease all;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.navbar .nav-item a:focus {
+  color: white;
+}
+
+.navbar .nav-item:hover {
+  background-color: rgba(255, 159, 14, 0.596);
+}
+
+
+.offcanvas-body .navbar-nav .nav-item {
+  border: 1px solid rgba(255, 191, 0, 0.797);
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: rgb(255, 191, 0);
+}
+
+
+.home {
+  position: relative;
+}
+
+.home .image {
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  z-index: 1;
+}
+
+.home h1 {
+  font-size: 4rem;
+  color: rgba(255, 159, 14, 1);
+  font-family: "Playfair Display";
+  font-weight: 600;
+}
+
+.home .icon-changer {
+  position: relative;
+}
+
+.home .camera-icon {
+  background-color: rgba(255, 159, 14, 1);
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+
+.home input[type="text"] {
+  background: rgb(234, 233, 233);
+}
+
+.home input[type="checkbox"] {
+  accent-color: rgba(255, 159, 14, 1);
+}
+
+.home ::placeholder {
+  padding-left: 50px !important;
+}
+
+.home p {
+  font-family: "Poppins";
+  font-size: 1.1rem;
+}
+
+.home p:hover {
+  color: rgba(255, 159, 14, 1);
+
+}
+
+.home label:hover {
+  letter-spacing: 0.3px;
+  color: rgba(255, 159, 14, 1);
+}
+
+.home label {
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.home .our-client p {
+  font-family: "josh";
+  font-size: 1rem !important;
+  font-weight: 100;
+}
+
+.home .our-content:hover img {
+  filter: drop-shadow(1px 1000px 0 rgba(255, 159, 14, 1));
+  transform: translateY(-1000px);
+}
+
+/*  ========================= Videohome  ===================*/
+.Videohome {
+  position: relative;
+}
+
+.Videohome .videohome-content {
+  padding-left: 100px;
+}
+
+
+
+.Videohome .image video {
+  position: absolute !important;
+  top: 10%;
+  left: 15%;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.Videohome video {
+  position: absolute !important;
+  top: 10%;
+  left: 0%;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+
+.Videohome .image {
+  position: relative;
+}
+
+.Videohome .image .img-outer {
+  position: absolute;
+  top: 58%;
+  left: 37%;
+  z-index: 2;
+}
+
+.Videohome h1 {
+  font-size: 3.5rem !important;
+  color: rgba(255, 159, 14, 1);
+  font-family: "Playfair Display";
+  font-weight: 600;
+}
+
+.Videohome .icon-changer {
+  position: relative;
+}
+
+.Videohome .camera-icon {
+  background-color: rgba(255, 159, 14, 1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+}
+
+.Videohome p:hover {
+  color: rgba(255, 159, 14, 1);
+}
+
+.Videohome .btn-changer input {
+  background: rgb(29, 28, 28) !important;
+  border: none;
+}
+
+.Videohome input[type="checkbox"] {
+  accent-color: rgba(255, 159, 14, 1);
+  background-color: transparent !important;
+}
+
+.Videohome ::placeholder {
+  padding-right: 50px !important;
+  color: white !important;
+
+}
+
+.Videohome p {
+  font-family: "Poppins";
+  font-size: 1.1rem;
+}
+
+.Videohome label {
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.Videohome label:hover {
+  color: rgba(255, 159, 14, 1);
+  letter-spacing: 0.3px;
+
+}
+
+
+.Videohome .our-client p {
+  font-family: "josh";
+  font-weight: 100 !important;
+}
+
+.Videohome .our-client :hover img {
+  filter: drop-shadow(0px 1000px 0 rgba(255, 159, 14, 1));
+  transform: translateY(-1000px)
+}
+
+
+
+/* ==========================  About ====================================== */
+.About {
+  min-height: 100vh;
+  background-color: rgb(103, 103, 103) !important;
+}
+
+
+.About .heading h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.6rem;
+  font-weight: 200;
+  letter-spacing: 14px;
+}
+
+.About .container {
+  padding: 60px;
+}
+
+.About .About-img {
+  position: relative;
+}
+
+.About .About-img .img1 {
+  position: absolute;
+  top: 5.5rem;
+  right: 100px;
+}
+
+.About .About-img .img2 {
+  position: absolute;
+  top: 0px;
+  left: 80px;
+  z-index: 1;
+}
+
+.About .About-content h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.6rem;
+  font-weight: 200;
+  letter-spacing: 14px;
+  transition: 0.3s ease all;
+}
+
+.About .About-content h1:hover {
+  color: rgba(255, 159, 14, 1) !important;
+}
+
+.About .About-content p {
+  font-weight: 100;
+  font-size: 0.9rem;
+  line-height: 24px;
+}
+
+
+.About-content img:hover {
+  transition: 0.5s ease all;
+  filter: drop-shadow(0px 0px 1px rgb(223, 134, 0));
+}
+
+/* ==================== Portfolio ============================ */
+.portfolio {
+  background: url("portBackground.png");
+}
+
+.portfolio .container {
+  padding: 30px;
+}
+
+.portfolio img {
+  height: 100%;
+  transition: 0.4s ease all;
+}
+
+.portfolio img:hover {
+  border-radius: 5px;
+}
+
+.portfolio .portfolio-heading h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-weight: 200;
+  letter-spacing: 10px;
+}
+
+.portfolio .portfolio-content {
+  font-size: 1rem;
+  font-weight: 300;
+  word-spacing: 2px;
+  font-family: "Poppins";
+
+}
+
+.portfolio .bt {
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+}
+
+.portfolio .bt p {
+  cursor: pointer;
+}
+
+
+.main {
+  position: relative;
+
+}
+
+.image-overlay {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 159, 14, 0.301);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.overlay button {
+  min-height: 50px;
+  height: 100%;
+  width: 130px;
+  min-width: 30%;
+}
+
+.main:hover .overlay {
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*  ============================ Videos =================== */
+.videos-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-weight: 200;
+  letter-spacing: 10px;
+}
+
+.videos {
+  background: rgba(8, 8, 8, 0.004) url("Videosbg.png") no-repeat;
+  background-position: 80% 100%;
+  background-size: auto;
+}
+
+.videos .videos-text {
+  position: relative;
+}
+
+.videos .videos-text img {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 5%;
+}
+
+.videos img {
+  width: 85%;
+}
+
+.videos .videos-content h1 {
+  font-size: 2.3rem;
+  font-weight: 500;
+  word-spacing: 2px;
+  font-family: "Playfair Display", serif;
+}
+
+.videos .videos-content p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  word-spacing: 2px;
+  font-family: "Poppins";
+}
+
+.videos .videos-content .bt {
+  font-family: "Playfair Display";
+  word-spacing: 2px;
+}
+
+.btn-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-shine-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-shine-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 10%;
+  height: 100%;
+  background: rgba(255, 159, 14, 0.606);
+  box-shadow: 0px 1px 10px 5px rgba(255, 159, 14, 0.536);
+  transform: skewX(-30deg);
+  animation: shine 2s cubic-bezier(0.8, 0, 0.6, 0) infinite;
+}
+
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+
+
+
+/* ============================ services ============================== */
+.services {
+  background-color: rgb(103, 103, 103);
+}
+
+.services .services-heading h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.services .services-main .icons {
+  display: none;
+}
+
+
+
+.services .services-main {
+  position: relative;
+}
+
+.services .services-main .left-block {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.services .services-main .right-block {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.services .services-main img {
+  max-height: 4rem;
+  max-width: 100%;
+}
+
+.services .services-main .left-side {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.services .services-main .right-side {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.services .services-content h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: rgba(255, 159, 14, 1);
+}
+
+.services .services-content p {
+  font-size: 1rem;
+  word-spacing: 2px;
+  font-family: "Poppins";
+}
+
+.services .services-content .dollor {
+  font-size: 2rem;
+  font-family: "sans-serif";
+}
+
+.services .box-second {
+  border: 0px dashed rgba(255, 159, 14, 0.305);
+  border-width: 2.5px;
+  background-color: rgba(9, 9, 9, 0.134);
+  border-radius: 5px;
+  transition: 0.2s ease-in-out all;
+  overflow: hidden;
+  transform: scale(1.2);
+  color: white;
+}
+
+.services .box-second:hover.services-main {
+  border-width: 0px;
+  background: rgba(255, 159, 14, 1);
+  transform: scale(1.2);
+  overflow: hidden;
+  color: white;
+}
+
+
+.services .box {
+  border: 0px dashed rgba(255, 159, 14, 0.305);
+  border-width: 2.5px;
+  background-color: rgba(9, 9, 9, 0.134);
+  border-radius: 5px;
+  transition: 4s ease-in-out all;
+
+}
+
+.services .box-second:hover h1 {
+  color: white;
+  transform: scale(1.2);
+  overflow: hidden;
+  transition: 0.4s ease all;
+}
+
+.services .box-second:hover .icons {
+  display: block;
+}
+
+.services .box-second:hover .block-img {
+  display: block;
+}
+
+.services .box-second:hover .btn {
+  background-color: gray;
+  color: white;
+  transform: scale(1.1);
+  overflow: hidden;
+  transition: 0.4s ease all;
+}
+
+.services .box:hover {
+  border-width: 0px;
+  background: rgba(255, 159, 14, 1);
+  transform: scale(1.07);
+  overflow: hidden;
+  color: white;
+}
+
+.services .box:hover h1 {
+  color: white;
+  transform: scale(1.2);
+  transition: 0.4s ease all;
+
+}
+
+.services .box:hover p {
+  transform: scale(1.1);
+  overflow: hidden;
+  transition: 0.4s ease all;
+
+}
+
+.services .box:hover .btn {
+  background-color: gray;
+  color: white;
+  transform: scale(1.1);
+  overflow: hidden;
+  transition: 0.4s ease all;
+
+}
+
+.services .services-content .btn {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: large;
+  background: rgba(255, 159, 14, 1);
+  border: none;
+  padding: 10px 20px 10px 20px !important;
+
+}
+
+.contactus {
+  background: url("contactBg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  padding: 60px;
+}
+
+.contactus h1 {
+  font-size: 3rem;
+}
+
+.contactus .form-outer {
+  background-color: rgba(24, 24, 24, 0.325);
+}
+
+.contactus ::placeholder {
+  font-family: "Playfair Display";
+  color: black;
+  padding-left: 14px;
+}
+
+.contactus .form-check-label {
+  font-size: 0.8rem;
+}
+
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+
+
+.column {
+  flex-basis: calc(20% - 20px);
+  margin-bottom: 20px;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+}
+
+.column h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.column p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.icon {
+  margin-right: 10px;
+}
+
+/* ============================ Testimonials =========================== */
+
+.testimonial {
+  background: url("testimonialbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 104%;
+  padding: 40px;
+  height: 100vh;
+}
+
+.testimonial .text-head h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-weight: 200;
+  letter-spacing: 10px;
+  transition: 0.3s ease-in-out all;
+}
+
+.testimonial .text-head h1:hover {
+  color: rgba(255, 159, 14, 1);
+}
+
+.testimonial .box {
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.729) !important;
+  color: rgb(130, 129, 129) !;
+  box-shadow: 2px 1px 5px 3px rgba(255, 159, 14, 0.411);
+  position: relative;
+}
+
+.testimonial .box img {
+  box-shadow: 1px 0px 2px 2px rgba(255, 159, 14, 0.411);
+  border-radius: 50%;
+}
+
+.testimonial .box h6 {
+  color: rgba(0, 0, 0, 0.515);
+  font-size: large;
+}
+
+.testimonial .box p {
+  font-size: 1rem;
+  color: rgba(46, 39, 92, 0.569);
+  line-height: 28px;
+  font-family: "Poppins";
+}
+
+.testimonial .box img {
+  position: absolute;
+  top: -10px;
+  left: -40px;
+}
+
+
+
+
+
+/* ============================ Footer =========================== */
+footer {
+  background-color: rgb(103, 103, 103);
+  color: white;
+}
+
+footer .container-fluid {
+  padding: 0px 100px 0px 60px;
+}
+
+footer h2 {
+  color: rgba(255, 159, 14, 1);
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  font-size: 1.5rem;
+}
+
+footer p {
+  font-weight: 300;
+  font-family: "Poppins";
+
+}
+
+footer .footer-content p a:hover {
+  color: rgba(255, 159, 14, 1);
+  letter-spacing: 1px;
+}
+
+footer .icon:hover img {
+  filter: drop-shadow(0px 1000px 0 rgba(255, 159, 14, 1));
+  transform: translateY(-1000px);
+}
+
+/* ============================= 576px  ================================= */
+
+@media(max-width:576px) {
+  .navbar {
+    background-color: rgb(48, 47, 48) !important;
+  }
+
+  .navbar ul li {
+    border-bottom: 2px solid rgb(211, 160, 5);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .home .image {
+    width: 100%;
+    min-width: 100%;
+    padding: 2px;
+    position: static;
+    z-index: auto;
+    left: auto;
+    top: auto;
+  }
+
+  .home .image video {
+    position: absolute !important;
+    top: 1%;
+    left: 2%;
+    z-index: 1;
+    overflow-x: hidden;
+  }
+
+  .home .image .img-fluid {
+    width: 100%;
+  }
+
+  .home .small-bg {
+    height: 80vh !important;
+  }
+
+  .home .home-content {
+    padding: 50px;
+  }
+
+  .home h1 {
+    font-size: 1.8rem !important;
+    color: rgba(255, 159, 14, 1);
+    font-family: "Playfair Display";
+    font-weight: 600;
+  }
+
+  .home .icon-changer {
+    position: relative;
+  }
+
+  .home .camera-icon {
+    background-color: rgba(255, 159, 14, 1);
+    position: absolute;
+    top: 1px;
+    left: 0;
+  }
+
+  .home input[type="text"] {
+    background: rgb(234, 233, 233);
+  }
+
+  .home ::placeholder {
+    padding-left: 50px !important;
+  }
+
+  .home p {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+  }
+
+  .home label {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+  .home .our-client p {
+    font-family: "josh";
+    font-size: 0.9rem;
+    font-weight: 100 !important;
+  }
+
+
+  .Videohome .image {
+    width: 94%;
+    min-width: 100%;
+    position: static;
+    z-index: auto;
+    left: auto;
+    top: 0;
+  }
+
+  .Videohome .image video {
+    position: absolute !important;
+    top: 1%;
+    left: 2%;
+    z-index: 1;
+    overflow-x: hidden;
+  }
+
+  .Videohome .small-bg {
+    height: 80vh !important;
+  }
+
+
+  .Videohome .videohome-content {
+    padding-left: 40px;
+  }
+
+  .Videohome .image .img-fluid {
+    width: 97% !important;
+    max-width: 100% !important;
+    height: 54% !important;
+    max-height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  .Videohome .img-outer {
+    position: relative;
+  }
+
+  .Videohome .image img {
+    position: absolute;
+    bottom: 70px !important;
+    left: 220px;
+    z-index: 2;
+  }
+
+  .Videohome a .playbt {
+    width: 80px;
+  }
+
+  .Videohome .small-bg {
+    max-height: 80vh !important;
+    height: 100vh;
+  }
+
+  .Videohome h1 {
+    font-size: 1.8rem !important;
+    color: rgba(255, 159, 14, 1);
+    font-family: "Playfair Display";
+    font-weight: 600;
+  }
+
+  .Videohome .icon-changer {
+    position: relative;
+  }
+
+  .Videohome .camera-icon {
+    background-color: rgba(255, 159, 14, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .Videohome input[type="text"] {
+    background: rgb(234, 233, 233);
+  }
+
+  .Videohome ::placeholder {
+    padding-left: 10px !important;
+  }
+
+  .Videohome p {
+    font-family: "Poppins";
+    font-size: 0.8rem;
+    font-weight: 100;
+  }
+
+  .Videohome label {
+    font-family: "Poppins";
+    font-size: 0.8rem;
+    font-weight: 200;
+  }
+
+  .Videohome .our-client p {
+    font-family: "josh";
+    font-size: 0.8rem;
+    font-weight: 100 !important;
+  }
+
+  /* ==========================  About ====================================== */
+  .About {
+    min-height: 100vh !important;
+    background-color: rgb(103, 103, 103) !important;
+  }
+
+
+  .About .heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 200;
+    word-spacing: 10%;
+  }
+
+  .About .container {
+    padding: 12px;
+  }
+
+  .About .About-img {
+    display: flex;
+    gap: 20px;
+
+  }
+
+  .About .About-img .img1 {
+    width: 45%;
+    position: static;
+  }
+
+  .About .About-img .img2 {
+    width: 45%;
+    position: static;
+    z-index: 1;
+  }
+
+  .About .About-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 200;
+    word-spacing: 10%;
+  }
+
+  .About .About-content p {
+    font-weight: 100;
+    font-size: 0.9rem;
+    line-height: 24px;
+  }
+
+  /* ==================== Portfolio ============================ */
+  .portfolio {
+    background-color: rgb(103, 103, 103) !important;
+  }
+
+  .portfolio .container {
+    padding: 30px;
+  }
+
+  .portfolio img {
+    min-width: 20%;
+  }
+
+
+
+  .portfolio .portfolio-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .portfolio .portfolio-content {
+    font-size: 0.8rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    font-family: "Poppins";
+
+  }
+
+  .portfolio .bt {
+    font-family: "Playfair Display", serif;
+    font-size: 0.7rem;
+  }
+
+  /* ============================ services ============================== */
+  .services {
+    background-color: rgb(103, 103, 103);
+  }
+
+  .services .container {
+    padding: 40px;
+  }
+
+  .services .d-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services .services-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+  }
+
+  .services .services-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: rgba(255, 159, 14, 1);
+  }
+
+  .services .services-content p {
+    font-size: 0.8rem;
+    word-spacing: 2px;
+    font-family: "Poppins";
+  }
+
+  .services .services-content .dollor {
+    font-size: 1.5rem;
+    font-family: "sans-serif";
+  }
+
+  .services .box {
+    border: 0px dashed rgba(255, 159, 14, 0.305);
+    border-width: 2.5px;
+    background-color: rgba(9, 9, 9, 0.134);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out all;
+  }
+
+  .services .box:hover {
+    border-width: 0px;
+    transform: scale(1.05);
+  }
+
+  .services .services-content .btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: small;
+    background: rgba(255, 159, 14, 1);
+    border: none;
+    padding: 10px 20px 10px 20px !important;
+
+  }
+
+  /*  ======================= Testimonial  ==========================*/
+  .testimonial .videos-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+  }
+
+  .testimonial .text-head h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+    transition: 0.3s ease-in-out all;
+  }
+
+  .testimonial .box {
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: rgb(130, 129, 129) !;
+    position: relative;
+  }
+
+  .testimonial .box img {
+    position: absolute;
+    top: -18px;
+    left: -18px !important;
+  }
+
+  .testimonial .box h6 {
+    color: rgba(0, 0, 0, 0.515);
+    font-size: 0.9rem;
+    padding-left: 10px;
+  }
+
+  .testimonial .box p {
+    font-size: 0.7rem;
+    font-family: "Poppins";
+    line-height: normal;
+    padding-left: 10px;
+  }
+
+  .testimonial .box .fs-6 {
+    font-size: 0.8rem !important;
+  }
+
+  .testimonial .box .img-fluid {
+    width: 18%;
+  }
+
+  .testimonial .box img {
+    position: absolute;
+    bottom: 190px;
+    left: -40px;
+    width: 18%;
+  }
+
+  /* Videos */
+  .videos {
+    background: rgba(0, 0, 0, 0.781) url("Videosbg.png") no-repeat;
+    background-position: 80% 100%;
+    background-size: auto;
+  }
+
+  /*  ================ Footer =============== */
+  .contactus {
+    background: url("contactBg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10px;
+
+  }
+
+  .contactus h1 {
+    font-size: 1rem;
+  }
+
+}
+
+@media(max-width:320px) {
+  .home .image {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    padding: 70px 5px !important;
+    left: auto;
+    top: auto;
+  }
+
+  .home .small-bg {
+    max-height: 48vh !important;
+    height: 100vh;
+  }
+
+  .Videohome .image video {
+    overflow-x: hidden;
+    width: 95%;
+    max-width: 100%;
+    position: absolute;
+    left: auto;
+  }
+  .Videohome .image {
+    width: 95%;
+    max-width: 100%;
+    height: 40%;
+    min-height: 100%;
+    position: absolute;
+    left: auto;
+    top: auto;
+  }
+  
+  .Videohome .image .img-fluid {
+    width: 96% !important;
+    max-width: 100% !important;
+    height: 30%!important;
+    max-height: 100% !important;
+  }
+
+
+  .Videohome .small-bg {
+    max-height: vh !important;
+    height: 100vh;
+  }
+
+  /*  ============================ Videos =================== */
+  .videos-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem !important;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .videos {
+    background: rgba(0, 0, 0, 0.827) url("Videosbg.png") no-repeat;
+    background-position: 100% auto;
+    background-size: cover;
+  }
+
+  .videos img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .videos .videos-content h1 {
+    font-size: 1.5rem !important;
+    font-weight: 500;
+    word-spacing: 2px;
+    font-family: "Playfair Display", serif;
+  }
+
+  .videos .videos-content p {
+    font-size: 0.6rem !important;
+    font-weight: 200;
+    word-spacing: 2px;
+    font-family: "Poppins";
+  }
+
+  .videos .videos-content .bt button {
+    width: 40% !important;
+    padding: 5px !important;
+    font-size: 8px !important;
+  }
+
+}
+
+/* ==========  (max-width: 375px)   ================ */
+@media (max-width: 375px) {
+  .home .image {
+    width: 95%;
+    max-width: 100%;
+    padding:2px !important;
+    position: static;
+    left: auto;
+    top: auto;
+  }
+
+  .home ::placeholder {
+    padding-left: 40px !important;
+    font-size: 12px;
+  }
+
+  .home .small-bg {
+    max-height: 52vh !important;
+    height: 100vh;
+  }
+
+
+  .Videohome .image {
+    width: 95%;
+    max-width: 100%;
+    height: 40%;
+    min-height: 100%;
+    position: absolute;
+    left: auto;
+    top: auto;
+  }
+  
+  .Videohome .image .img-fluid {
+    width: 96% !important;
+    max-width: 100% !important;
+    height: 30%!important;
+    max-height: 100% !important;
+  }
+
+  .Videohome ::placeholder {
+    padding-left: 40px !important;
+    font-size: 12px;
+  }
+
+  .Videohome .small-bg {
+    max-height: 52vh !important;
+    height: 100vh;
+  }
+
+  /* testimonial */
+
+  .testimonial .box img {
+    position: absolute;
+    top: 0px !important;
+    left: 0px !important;
+  }
+
+  .testimonial .box .img-fluid {
+    width: 21%;
+  }
+
+}
+
+/* ==========  (max-width: 425px)   ================ */
+
+@media (max-width: 425px) {
+  .home .image {
+    width: 100%;
+    max-width: 100%;
+    position: static;
+    z-index: auto;
+    height: 100%;
+    left: 0;
+    top: 2px;
+  }
+
+  .home .small-bg {
+    height: 60vh !important;
+  }
+
+  .home .image {
+    width: 100%;
+    min-width: 100%;
+    padding: 2px;
+    position: static;
+    z-index: auto;
+    left: auto;
+    top: auto;
+  }
+
+  .home .image video {
+    position: absolute !important;
+    top: 1%;
+    left: 1%;
+    z-index: 1;
+    overflow-x: hidden;
+  }
+
+  .home .image .img-fluid {
+    width: 100%;
+    height: 100% !important;
+  }
+
+  .home .home-content {
+    padding: 50px;
+  }
+
+  .Videohome .image {
+    width: 94%;
+    min-width: 100%;
+    position: static;
+    z-index: auto;
+    left: auto;
+    top: 0;
+  }
+
+  .Videohome .image video {
+    position: absolute !important;
+    top: 1%;
+    left: 2%;
+    z-index: 1;
+    overflow-x: hidden;
+  }
+
+  .Videohome .small-bg {
+    height: 80vh !important;
+  }
+
+
+  .Videohome .videohome-content {
+    padding-left: 40px;
+  }
+
+  .Videohome .image .img-fluid {
+    width: 96% !important;
+    max-width: 100% !important;
+    height: 40% !important;
+    max-height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  .Videohome .img-outer {
+    position: relative;
+  }
+
+  .Videohome .image img {
+    position: absolute;
+    bottom: 160px !important;
+    left: 135px;
+    z-index: 2;
+  }
+
+  .Videohome a .playbt {
+    width: 50px;
+  }
+
+  .Videohome .small-bg {
+    height: 60vh !important;
+  }
+
+
+
+  /*  ============================ Videos =================== */
+  .videos-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .videos {
+    background: rgba(0, 0, 0, 0.827) url("Videosbg.png") no-repeat;
+    background-position: 100% auto;
+    background-size: cover;
+  }
+
+  .videos img {
+    width: 100%;
+  }
+
+  .videos .videos-content h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    word-spacing: 2px;
+    font-family: "Playfair Display", serif;
+  }
+
+  .videos .videos-text {
+    position: relative;
+  }
+
+  .videos .videos-text img {
+    position: absolute;
+    left: 54%;
+    width: 6% !important;
+    height: 12px;
+  }
+
+  .videos .videos-content p {
+    font-size: 0.7rem;
+    font-weight: 200;
+    word-spacing: 2px;
+    font-family: "Poppins";
+  }
+
+  .videos .videos-content .bt button {
+    width: 30% !important;
+    padding: 5px !important;
+    font-size: 12px;
+  }
+
+  /* Porttfolio btn */
+  .overlay button {
+    min-height: 9px;
+    height: 71%;
+    width: 60px;
+    min-width: 100%;
+    /* font-size: 0.5rem !important; */
+    font-size: 8px;
+    padding: 0px;
+
+  }
+}
+
+/* ==========  (min-width:576px)  ================ */
+@media(min-width:576px) {
+  .navbar {
+    position: static;
+    width: 100%;
+  }
+
+  .navbar ul li {
+    border-bottom: 2px solid rgb(211, 160, 5);
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .home .image {
+    width: 100%;
+    min-width: 100%;
+    padding: 2px;
+    position: static;
+    z-index: auto;
+    left: auto;
+    top: auto;
+  }
+
+  .home .image video {
+    position: absolute !important;
+    top: 1%;
+    left: 2%;
+    z-index: 1;
+    overflow-x: hidden;
+  }
+
+  .home .image .img-fluid {
+    width: 100%;
+  }
+
+  .home .small-bg {
+    height: 80vh !important;
+  }
+
+  .home .home-content {
+    padding: 50px;
+  }
+
+  .home h1 {
+    font-size: 1.8rem !important;
+    color: rgba(255, 159, 14, 1);
+    font-family: "Playfair Display";
+    font-weight: 600;
+  }
+
+  .home .icon-changer {
+    position: relative;
+  }
+
+  .home .camera-icon {
+    background-color: rgba(255, 159, 14, 1);
+    position: absolute;
+    top: 1px;
+    left: 0;
+  }
+
+  .home input[type="text"] {
+    background: rgb(234, 233, 233);
+  }
+
+  .home ::placeholder {
+    padding-left: 50px !important;
+  }
+
+  .home p {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+  }
+
+  .home label {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+  .home .our-client p {
+    font-family: "josh";
+    font-size: 0.9rem;
+    font-weight: 100 !important;
+  }
+
+
+  .Videohome .image {
+    width: 94%;
+    min-width: 100%;
+    position: static;
+    z-index: auto;
+    left: auto;
+    top: 0;
+  }
+
+  .Videohome .image video {
+    position: absolute !important;
+    top: 1%;
+    left: 2%;
+    z-index: 1;
+    overflow-x: hidden;
+  }
+
+  .Videohome .small-bg {
+    height: 80vh !important;
+  }
+
+
+  .Videohome .videohome-content {
+    padding-left: 40px;
+  }
+
+  .Videohome .image .img-fluid {
+    width: 97% !important;
+    max-width: 100% !important;
+    height: 54% !important;
+    max-height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  .Videohome .img-outer {
+    position: relative;
+  }
+
+  .Videohome .image img {
+    position: absolute;
+    bottom: 90px !important;
+    left: 190px;
+    z-index: 2;
+  }
+
+
+  .Videohome h1 {
+    font-size: 1.8rem !important;
+    color: rgba(255, 159, 14, 1);
+    font-family: "Playfair Display";
+    font-weight: 600;
+  }
+
+  .Videohome .icon-changer {
+    position: relative;
+  }
+
+  .Videohome .camera-icon {
+    background-color: rgba(255, 159, 14, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .Videohome input[type="text"] {
+    background: rgb(234, 233, 233);
+  }
+
+  .Videohome ::placeholder {
+    padding-left: 50px !important;
+  }
+
+  .Videohome p {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+  }
+
+  .Videohome label {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+  .Videohome .our-client p {
+    font-family: "josh";
+    font-size: 0.9rem;
+    font-weight: 100 !important;
+  }
+
+  /* ==========================  About ====================================== */
+  .About {
+    min-height: 100vh;
+    background-color: rgb(103, 103, 103) !important;
+  }
+
+  .About .heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    word-spacing: 10%;
+  }
+
+  .About .container {
+    padding: 30px;
+  }
+
+  .About .About-img {
+    position: relative;
+  }
+
+  .About .About-img .img1 {
+    position: absolute;
+    top: 4rem;
+    left: 40px !important;
+  }
+
+  .About .About-img .img2 {
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    z-index: 1;
+  }
+
+  .About .About-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 200;
+    word-spacing: 10%;
+  }
+
+  .About .About-content p {
+    font-weight: 100;
+    font-size: 0.9rem;
+    line-height: 24px;
+  }
+
+  /* ===================== Portfolio ======================== */
+  .portfolio {
+    background-color: rgb(103, 103, 103) !important;
+  }
+
+  .portfolio .container {
+    padding: 30px;
+  }
+
+  .portfolio img {
+    min-width: 25%;
+  }
+
+  .portfolio .portfolio-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .portfolio .portfolio-content {
+    font-size: 0.8rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    font-family: "Poppins";
+
+  }
+
+  .portfolio .bt {
+    font-family: "Playfair Display", serif;
+    font-size: 0.9rem;
+  }
+
+  /*  ============================ Videos =================== */
+  /* Videos */
+  .videos {
+    background: rgba(0, 0, 0, 0.781) url("Videosbg.png") no-repeat;
+    background-position: 80% 100%;
+    background-size: auto;
+  }
+
+  .videos-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .videos img {
+    width: 100%;
+  }
+
+  .videos .videos-content h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    word-spacing: 2px;
+    font-family: "Playfair Display", serif;
+  }
+
+  .videos .videos-content p {
+    font-size: 0.8rem;
+    font-weight: 200;
+    word-spacing: 2px;
+    font-family: "Poppins";
+  }
+
+  .videos .videos-content .bt button {
+    width: 50% !important;
+    padding: 5px !important;
+    font-size: 12px;
+  }
+
+
+  /* ============================ services ============================== */
+  .services {
+    background-color: rgb(103, 103, 103);
+  }
+
+  .services .container {
+    padding: 60px;
+  }
+
+  .services .d-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .services .services-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+  }
+
+  .services .services-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: rgba(255, 159, 14, 1);
+  }
+
+  .services .services-content p {
+    font-size: 0.8rem;
+    word-spacing: 2px;
+    font-family: "Poppins";
+  }
+
+  .services .services-content .dollor {
+    font-size: 1.5rem;
+    font-family: "sans-serif";
+  }
+
+  .services .box {
+    border: 0px dashed rgba(255, 159, 14, 0.305);
+    border-width: 2.5px;
+    background-color: rgba(9, 9, 9, 0.134);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out all;
+  }
+
+  .services .box:hover {
+    border-width: 0px;
+    transform: scale(1.05);
+  }
+
+  .services .services-content .btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: small;
+    background: rgba(255, 159, 14, 1);
+    border: none;
+    padding: 10px 20px 10px 20px !important;
+
+  }
+
+  /* testimonial */
+  .testimonial .box img {
+    position: absolute;
+    top: -28px;
+    left: -20px !important;
+  }
+
+  .testimonial .box .img-fluid {
+    width: 14%;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    position: static;
+    width: 100%;
+  }
+
+  .navbar ul li {
+    border-bottom: 2px solid rgb(211, 160, 5);
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .navbar ul li {
+    border-bottom: 2px solid rgb(211, 160, 5);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /* Home section */
+  .home {
+    position: relative;
+  }
+
+  .home .home-content {
+    padding-left: 100px !important;
+
+  }
+
+  .home .small-bg {
+    height: 100vh !important;
+  }
+
+  .home .image img {
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    z-index: 1;
+  }
+
+  .home .image .img-fluid {
+    width: 40% !important;
+  }
+
+  .home h1 {
+    font-size: 3rem !important;
+    color: rgba(255, 159, 14, 1);
+    font-family: "Playfair Display";
+    font-weight: 600;
+  }
+
+  .home .icon-changer {
+    position: relative;
+  }
+
+  .home .camera-icon {
+    background-color: rgba(255, 159, 14, 1);
+    position: absolute;
+    top: 1px;
+    left: 0;
+  }
+
+  .home input[type="text"] {
+    background: rgb(234, 233, 233);
+  }
+
+  .home ::placeholder {
+    padding-left: 43px !important;
+    font-size: 14px;
+  }
+
+  .home p {
+    font-family: "Poppins";
+    font-size: 1rem;
+  }
+
+  .home label {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+  .home .our-client p {
+    font-family: "josh";
+    font-size: 0.9rem;
+    font-weight: 100 !important;
+  }
+
+  /* Videohome section */
+  .Videohome {
+    position: relative;
+  }
+
+  .Videohome .videohome-content {
+    padding-left: 100px !important;
+
+  }
+
+  .Videohome .small-bg {
+    height: 100vh !important;
+  }
+
+  .Videohome .image video {
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    z-index: 1;
+  }
+
+  .Videohome .image .img-fluid {
+    width: 40% !important;
+    max-width: 50% !important;
+    height: 45% !important;
+    max-height: 100% !important;
+    object-fit: cover !important;
+  }
+  .Videohome .img-outer {
+    position: relative;
+  }
+
+  .Videohome .image img {
+    position: absolute;
+    bottom: 0px !important;
+    left:-20px;
+    z-index: 2;
+  }
+
+  .Videohome a .playbt {
+    width: 50px;
+  }
+  .Videohome h1 {
+    font-size: 2.4rem !important;
+    color: rgba(255, 159, 14, 1);
+    font-family: "Playfair Display";
+    font-weight: 600;
+  }
+
+  .Videohome .icon-changer {
+    position: relative;
+  }
+
+  .Videohome .camera-icon {
+    background-color: rgba(255, 159, 14, 1);
+    position: absolute;
+    top: 0px;
+    left: 70%;
+  }
+
+  .Videohome input[type="text"] {
+    background: rgb(234, 233, 233);
+  }
+
+  .Videohome ::placeholder {
+    padding-left: 43px !important;
+    font-size: 14px;
+  }
+
+  .Videohome p {
+    font-family: "Poppins";
+    font-size: 1rem;
+  }
+
+  .Videohome label {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+  .Videohome .our-client p {
+    font-family: "josh";
+    font-size: 0.9rem;
+    font-weight: 100 !important;
+  }
+
+  /* ==========================  About ====================================== */
+  .About {
+    min-height: 100vh;
+    background-color: rgb(103, 103, 103) !important;
+  }
+
+  .About .heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    word-spacing: 10%;
+  }
+
+  .About .container {
+    padding: 50px;
+  }
+
+  .About .About-img {
+    position: relative;
+  }
+
+  .About .About-img .img1 {
+    position: absolute;
+    top: 4rem;
+    left: 45px !important;
+  }
+
+  .About .About-img .img2 {
+    position: absolute;
+    top: 10px;
+    left: -30px;
+    z-index: 1;
+  }
+
+  .About .About-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    word-spacing: 10%;
+  }
+
+  .About .About-content p {
+    font-weight: 100;
+    font-size: 0.9rem;
+    line-height: 24px;
+  }
+
+  /* ===================== Portfolio ======================== */
+  .portfolio {
+    background-color: rgb(103, 103, 103) !important;
+  }
+
+  .portfolio .container {
+    padding: 50px;
+  }
+
+  .portfolio img {
+    min-width: 25%;
+  }
+
+  .portfolio .portfolio-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.9rem;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .portfolio .portfolio-content {
+    font-size: 0.8rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    font-family: "Poppins";
+
+  }
+
+  .portfolio .bt {
+    font-family: "Playfair Display", serif;
+    font-size: 0.9rem;
+  }
+
+  /*  ============================ Videos =================== */
+  /* Videos */
+  .videos {
+    background: rgba(0, 0, 0, 0.781) url("Videosbg.png") no-repeat;
+    background-position: 80% 100%;
+    background-size: auto;
+  }
+
+  .videos-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 1.9rem;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .videos img {
+    width: 100%;
+  }
+
+  .videos .videos-content h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    word-spacing: 2px;
+    font-family: "Playfair Display", serif;
+  }
+
+  .videos .videos-content p {
+    font-size: 0.8rem;
+    font-weight: 200;
+    word-spacing: 2px;
+    font-family: "Poppins";
+  }
+
+  .videos .videos-content .bt button {
+    width: 40% !important;
+    padding: 5px !important;
+    font-size: 12px;
+  }
+
+  /* ============================ services ============================== */
+  .services {
+    background-color: rgb(103, 103, 103);
+  }
+
+  .services .container {
+    padding: 80px;
+  }
+
+  .services .d-flex {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .services .services-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+  }
+
+  .services .services-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgba(255, 159, 14, 1);
+  }
+
+  .services .services-content p {
+    font-size: 0.8rem;
+    word-spacing: 2px;
+    font-family: "Poppins";
+  }
+
+  .services .services-content .dollor {
+    font-size: 1.6rem;
+    font-family: "sans-serif";
+  }
+
+  .services .box {
+    border: 0px dashed rgba(255, 159, 14, 0.305);
+    border-width: 2.5px;
+    background-color: rgba(9, 9, 9, 0.134);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out all;
+  }
+
+  .services .box:hover {
+    border-width: 0px;
+    transform: scale(1.05);
+  }
+
+  .services .services-content .btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 0.5rem;
+    background: rgba(255, 159, 14, 1);
+    border: none;
+    padding: 5px !important;
+
+  }
+
+  /* =============== Testimonial  ============== */
+
+  .testimonial .box {
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: rgb(130, 129, 129) !;
+    position: relative;
+  }
+
+  .testimonial .box img {
+    position: absolute;
+    bottom: 250px;
+    left: -40px;
+  }
+
+  .testimonial .box .img-fluid {
+    width: 21%;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    position: static;
+    width: 100%;
+  }
+
+  .navbar .nav-item {
+    width: 100px !important;
+
+  }
+
+  .navbar ul li {
+    border-bottom: none;
+    width: 100% !important;
+  }
+
+  .navbar ul li a {
+    font-size: 0.8rem !important;
+  }
+
+  /* Home section */
+  .home {
+    position: relative;
+  }
+
+  .home .home-content {
+    padding: 50px;
+  }
+
+  .home .small-bg {
+    height: 100vh !important;
+  }
+
+  .home .image img {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    z-index: 1;
+  }
+
+  .home .image .img-fluid {
+    width: 35% !important;
+  }
+
+  .home h1 {
+    font-size: 3rem !important;
+    color: rgba(255, 159, 14, 1);
+    font-family: "Playfair Display";
+    font-weight: 600;
+  }
+
+  .home .icon-changer {
+    position: relative;
+  }
+
+  .home .camera-icon {
+    background-color: rgba(255, 159, 14, 1);
+    position: absolute;
+    top: 1px;
+    left: 0;
+  }
+
+  .home input[type="text"] {
+    background: rgb(234, 233, 233);
+  }
+
+  .home ::placeholder {
+    padding-left: 43px !important;
+    font-size: 14px;
+  }
+
+  .home p {
+    font-family: "Poppins";
+    font-size: 1rem;
+  }
+
+  .home label {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+  .home .our-client p {
+    font-family: "josh";
+    font-size: 0.9rem;
+    font-weight: 100 !important;
+  }
+
+  /* Videohome section */
+  .Videohome {
+    position: relative;
+  }
+
+  .Videohome .Videohome-content {
+    padding: 50px;
+    background-color: red;
+  }
+
+  .Videohome .small-bg {
+    height: 100vh !important;
+  }
+
+  .Videohome .image video {
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    z-index: 1;
+  }
+
+  .Videohome .image .img-fluid {
+    width: 35% !important;
+    max-width: 50% !important;
+    height: 50% !important;
+    max-height: 100% !important;
+    object-fit: cover !important;
+  }
+
+
+  .Videohome h1 {
+    font-size: 3rem !important;
+    color: rgba(255, 159, 14, 1);
+    font-family: "Playfair Display";
+    font-weight: 600;
+  }
+
+  .Videohome .icon-changer {
+    position: relative;
+  }
+
+  .Videohome .camera-icon {
+    background-color: rgba(255, 159, 14, 1);
+    position: absolute;
+    top: 0;
+    left: 80%;
+  }
+
+  .Videohome input[type="text"] {
+    background: rgb(234, 233, 233);
+  }
+
+  .Videohome ::placeholder {
+    padding-left: 43px !important;
+    font-size: 14px;
+  }
+
+  .Videohome p {
+    font-family: "Poppins";
+    font-size: 1rem;
+  }
+
+  .Videohome label {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+  .Videohome .our-client p {
+    font-family: "josh";
+    font-size: 0.9rem;
+    font-weight: 100 !important;
+  }
+
+  /* ==========================  About ====================================== */
+  .About {
+    min-height: 100vh;
+    background-color: rgb(103, 103, 103) !important;
+  }
+
+  .About .heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    word-spacing: 10%;
+  }
+
+  .About .container {
+    padding: 45px;
+  }
+
+  .About .About-img {
+    position: relative;
+    width: 80% !important;
+
+  }
+
+  .About .About-img .img1 {
+    position: absolute;
+    top: 4rem;
+    left: 80px !important;
+  }
+
+  .About .About-img .img2 {
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    z-index: 1;
+  }
+
+  .About .About-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+    word-spacing: 10%;
+  }
+
+  .About .About-content p {
+    font-weight: 100;
+    font-size: 0.9rem;
+    line-height: 24px;
+  }
+
+  /* ===================== Portfolio ======================== */
+  .portfolio {
+    background-color: rgb(103, 103, 103) !important;
+  }
+
+  .portfolio .container {
+    padding: 30px;
+  }
+
+  .portfolio img {
+    min-width: 30%;
+  }
+
+  .portfolio .portfolio-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.9rem;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .portfolio .portfolio-content {
+    font-size: 0.8rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    font-family: "Poppins";
+
+  }
+
+  .portfolio .bt {
+    font-family: "Playfair Display", serif;
+    font-size: 0.9rem;
+  }
+
+  /* ============================ services ============================== */
+  .services {
+    background-color: rgb(103, 103, 103);
+  }
+
+  .services .d-flex {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .services .services-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+  }
+
+  .services .services-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgba(255, 159, 14, 1);
+  }
+
+  .services .services-content p {
+    font-size: 0.8rem;
+    word-spacing: 2px;
+    font-family: "Poppins";
+  }
+
+  .services .services-content .dollor {
+    font-size: 1.6rem;
+    font-family: "sans-serif";
+  }
+
+  .services .box {
+    border: 0px dashed rgba(255, 159, 14, 0.305);
+    border-width: 2.5px;
+    background-color: rgba(9, 9, 9, 0.134);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out all;
+  }
+
+  .services .box:hover {
+    border-width: 0px;
+    transform: scale(1.05);
+  }
+
+  .services .services-content .btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 0.5rem;
+    background: rgba(255, 159, 14, 1);
+    border: none;
+    padding: 5px !important;
+
+  }
+
+  /* =============== Testimonial  ============== */
+  .testimonial {
+    background: url("testimonialbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 104%;
+    padding: 40px;
+    height: 100vh;
+  }
+
+  .testimonial .testimonial .box {
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: rgb(130, 129, 129) !;
+    position: relative !important;
+  }
+
+  .testimonial .box img {
+    position: absolute !important;
+    bottom: 225px !important;
+    left: -40px !important;
+  }
+
+  /* Videos */
+  .videos {
+    background: rgba(0, 0, 0, 0.781) url("Videosbg.png") no-repeat;
+    background-position: 80% 100%;
+    background-size: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar {
+    position: static;
+    width: 100%;
+  }
+
+  .navbar ul li {
+    border-bottom: none;
+    width: 100% !important;
+  }
+
+  .navbar ul li a {
+    font-size: 0.8rem !important;
+  }
+
+  /* Home section */
+  .home {
+    position: relative;
+  }
+
+  .home .home-content {
+    padding: 120px;
+  }
+
+  .home .small-bg {
+    height: 100vh !important;
+  }
+
+  .home .image img {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 1;
+  }
+
+  .home .image .img-fluid {
+    width: 40% !important;
+  }
+
+  .home h1 {
+    font-size: 3.3rem !important;
+    color: rgba(255, 159, 14, 1);
+    font-family: "Playfair Display";
+    font-weight: 600;
+  }
+
+  .home .icon-changer {
+    position: relative;
+  }
+
+  .home .camera-icon {
+    background-color: rgba(255, 159, 14, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  .home input[type="text"] {
+    background: rgb(234, 233, 233);
+  }
+
+  .home ::placeholder {
+    padding-left: 43px !important;
+    font-size: 14px;
+  }
+
+  .home p {
+    font-family: "Poppins";
+    font-size: 1rem;
+  }
+
+  .home label {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+  .home .our-client p {
+    font-family: "josh";
+    font-size: 0.9rem;
+    font-weight: 100 !important;
+  }
+
+
+  /* Videohome section */
+  .Videohome {
+    position: relative;
+  }
+
+  .Videohome .Videohome-content {
+    padding: 200px !important;
+  }
+
+  .Videohome .small-bg {
+    height: 100vh !important;
+  }
+
+  .Videohome .image video {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 1;
+  }
+
+  .Videohome .image .img-fluid {
+    width: 40% !important;
+    max-width: 50% !important;
+    height: 60% !important;
+    max-height: 100% !important;
+    object-fit: cover !important;
+  }
+  .Videohome .img-outer {
+    position: relative;
+  }
+
+  .Videohome .image img {
+    position: absolute;
+    top: -5px !important;
+    left:-5px;
+    z-index: 2;
+  }
+
+  .Videohome a .playbt {
+    width: 70px;
+  }
+
+  .Videohome h1 {
+    font-size: 3.3rem !important;
+    color: rgba(255, 159, 14, 1);
+    font-family: "Playfair Display";
+    font-weight: 600;
+  }
+
+  .Videohome .icon-changer {
+    position: relative;
+  }
+
+  .Videohome .camera-icon {
+    background-color: rgba(255, 159, 14, 1);
+    position: absolute;
+    top: 0px;
+    left: 79%;
+  }
+
+  .Videohome input[type="text"] {
+    background: rgb(234, 233, 233);
+  }
+
+  .Videohome ::placeholder {
+    padding-left: 43px !important;
+    font-size: 14px;
+  }
+
+  .hoVideohomeme p {
+    font-family: "Poppins";
+    font-size: 1rem;
+  }
+
+  .Videohome label {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+  .Videohome .our-client p {
+    font-family: "josh";
+    font-size: 0.9rem;
+    font-weight: 100 !important;
+  }
+
+  /*  =============== About ===================== */
+  .About {
+    min-height: 100vh !important;
+    background-color: rgb(103, 103, 103) !important;
+  }
+
+  .About .heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.4rem;
+    font-weight: 200;
+    word-spacing: 10%;
+  }
+
+  .About .container {
+    padding: 80px;
+  }
+
+  .About .About-img {
+    position: relative;
+    width: 80%;
+  }
+
+  .About .About-img .img1 {
+    position: absolute;
+    top: 4rem;
+    left: 120px !important;
+  }
+
+  .About .About-img .img2 {
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    z-index: 1;
+  }
+
+  .About .About-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.4rem;
+    font-weight: 200;
+    word-spacing: 10%;
+  }
+
+  .About .About-content p {
+    font-weight: 100;
+    font-size: 0.9rem;
+    line-height: 24px;
+  }
+
+  /* ===================== Portfolio ======================== */
+  .portfolio {
+    background-color: rgb(103, 103, 103) !important;
+  }
+
+  .portfolio .container {
+    padding: 60px;
+  }
+
+  .portfolio img {
+    min-width: 27%;
+  }
+
+  .portfolio .portfolio-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .portfolio .portfolio-content {
+    font-size: 1rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    font-family: "Poppins";
+
+  }
+
+  .portfolio .bt {
+    font-family: "Playfair Display", serif;
+    font-size: 0.9rem;
+  }
+
+  /*  ============================ Videos =================== */
+  /* Videos */
+  .videos {
+    background: rgba(0, 0, 0, 0.575) url("Videosbg.png") no-repeat;
+    background-position: 80% 100%;
+    background-size: auto;
+  }
+
+  .videos-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 2.2rem;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .videos img {
+    width: 100%;
+  }
+
+  .videos .videos-content h1 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    word-spacing: 2px;
+    font-family: "Playfair Display", serif;
+  }
+
+  .videos .videos-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    word-spacing: 2px;
+    font-family: "Poppins";
+  }
+
+  .videos .videos-content .bt button {
+    width: 37% !important;
+    padding: 10px !important;
+    font-size: 16px;
+  }
+
+  /* =============================================== Services ================= */
+  .services .container {
+    padding: 130px;
+  }
+
+  .services .d-flex {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+  }
+
+  .services .services-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+  }
+
+  .services .services-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: rgba(255, 159, 14, 1);
+  }
+
+  .services .services-content p {
+    font-size: 0.9rem;
+    word-spacing: 2px;
+    font-family: "Poppins";
+  }
+
+  .services .services-content .dollor {
+    font-size: 1.5rem;
+    font-family: "sans-serif";
+  }
+
+  .services .box {
+    border: 0px dashed rgba(255, 159, 14, 0.305);
+    border-width: 2.5px;
+    background-color: rgba(9, 9, 9, 0.134);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out all;
+  }
+
+  .services .box:hover {
+    border-width: 0px;
+    transform: scale(1.05);
+  }
+
+  .services .services-content .btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: small;
+    background: rgba(255, 159, 14, 1);
+    border: none;
+    padding: 10px 20px 10px 20px !important;
+
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .navbar {
+    position: static;
+    width: 100%;
+  }
+
+  .navbar .nav-item {
+    width: 100px !important;
+
+  }
+
+  .navbar ul li {
+    border-bottom: none;
+    width: 100% !important;
+  }
+
+  .navbar ul li a {
+    font-size: 0.8rem !important;
+  }
+
+  /* Home section */
+  .home {
+    position: relative;
+  }
+
+  .home .home-content {
+    padding: 120px;
+  }
+
+  .home .small-bg {
+    height: 100vh !important;
+  }
+
+  .home .image img {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 1;
+  }
+
+  .home .image .img-fluid {
+    width: 38% !important;
+  }
+
+  .home h1 {
+    font-size: 3.3rem !important;
+    color: rgba(255, 159, 14, 1);
+    font-family: "Playfair Display";
+    font-weight: 600;
+  }
+
+  .home .icon-changer {
+    position: relative;
+  }
+
+  .home .camera-icon {
+    background-color: rgba(255, 159, 14, 1);
+    position: absolute;
+    top: 1px;
+    left: 0;
+  }
+
+  .home input[type="text"] {
+    background: rgb(234, 233, 233);
+  }
+
+  .home ::placeholder {
+    padding-left: 43px !important;
+    font-size: 14px;
+  }
+
+  .home p {
+    font-family: "Poppins";
+    font-size: 1rem;
+  }
+
+  .home label {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+  .home .our-client p {
+    font-family: "josh";
+    font-size: 0.9rem;
+    font-weight: 100 !important;
+  }
+
+
+
+  /* Home section */
+  .Videohome {
+    position: relative;
+  }
+
+  .Videohome .videohome-content {
+    padding-left: 120px;
+  }
+
+  .Videohome .small-bg {
+    height: 100vh !important;
+  }
+
+  .Videohome .image video {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 1;
+  }
+
+  .Videohome .image .img-fluid {
+    width: 38% !important;
+    max-width: 50% !important;
+    height: 65% !important;
+    max-height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  .Videohome .img-outer {
+    position: relative;
+  }
+
+  .Videohome .image img {
+    position: absolute;
+    top: 35px !important;
+    right:25px;
+    z-index: 2;
+  }
+
+  .Videohome a .playbt {
+    width: 70px;
+  }
+
+  .Videohome h1 {
+    font-size: 3.3rem !important;
+    color: rgba(255, 159, 14, 1);
+    font-family: "Playfair Display";
+    font-weight: 600;
+  }
+
+  .Videohome .icon-changer {
+    position: relative;
+  }
+
+  .Videohome .camera-icon {
+    background-color: rgba(255, 159, 14, 1);
+    position: absolute;
+    top: 0;
+    left: 76%;
+  }
+
+  .Videohome input[type="text"] {
+    background: rgb(26, 25, 25);
+  }
+
+  .Videohome ::placeholder {
+    padding-left: 43px !important;
+    font-size: 14px;
+  }
+
+  .Videohome p {
+    font-family: "Poppins";
+    font-size: 1rem;
+  }
+
+  .Videohome label {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+  .Videohome .our-client p {
+    font-family: "josh";
+    font-size: 0.9rem;
+    font-weight: 100 !important;
+  }
+
+  /*  =============== About ===================== */
+  .About {
+    min-height: 100vh !important;
+    background-color: rgb(103, 103, 103) !important;
+  }
+
+  .About .heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.4rem;
+    font-weight: 200;
+    word-spacing: 10%;
+  }
+
+  .About .container {
+    padding: 80px;
+  }
+
+  .About .About-img {
+    position: relative;
+    width: 80%;
+  }
+
+  .About .About-img .img1 {
+    position: absolute;
+    top: 8rem;
+    left: 180px !important;
+  }
+
+  .About .About-img .img2 {
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    z-index: 1;
+  }
+
+  .About .About-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.4rem;
+    font-weight: 200;
+    word-spacing: 10%;
+  }
+
+  .About .About-content p {
+    font-weight: 100;
+    font-size: 0.9rem;
+    line-height: 24px;
+  }
+
+  /* ===================== Portfolio ======================== */
+  .portfolio {
+    background-color: rgb(103, 103, 103) !important;
+  }
+
+  .portfolio .container {
+    padding: 60px;
+  }
+
+  .portfolio img {
+    min-width: 27%;
+  }
+
+  .portfolio .portfolio-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .portfolio .portfolio-content {
+    font-size: 1rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    font-family: "Poppins";
+
+  }
+
+  .portfolio .bt {
+    font-family: "Playfair Display", serif;
+    font-size: 0.9rem;
+  }
+
+  .services .container {
+    padding: 130px;
+  }
+
+  .services .d-flex {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+  }
+
+  .services .services-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+  }
+
+  .services .services-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: rgba(255, 159, 14, 1);
+  }
+
+  .services .services-content p {
+    font-size: 0.9rem;
+    word-spacing: 2px;
+    font-family: "Poppins";
+  }
+
+  .services .services-content .dollor {
+    font-size: 1.5rem;
+    font-family: "sans-serif";
+  }
+
+  .services .box {
+    border: 0px dashed rgba(255, 159, 14, 0.305);
+    border-width: 2.5px;
+    background-color: rgba(9, 9, 9, 0.134);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out all;
+  }
+
+  .services .box:hover {
+    border-width: 0px;
+    transform: scale(1.05);
+  }
+
+  .services .services-content .btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: small;
+    background: rgba(255, 159, 14, 1);
+    border: none;
+    padding: 10px 20px 10px 20px !important;
+
+  }
+
+  /* testimonial */
+
+  .testimonial .box .img-fluid {
+    width: 18%;
+  }
+
+
+  /* Videos */
+  .videos {
+    background: rgba(0, 0, 0, 0.781) url("Videosbg.png") no-repeat;
+    background-position: 80% 100%;
+    background-size: auto;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  .navbar ul li {
+    border-bottom: none;
+    width: 100% !important;
+  }
+
+  .navbar ul li a {
+    font-size: 0.8rem !important;
+  }
+
+  /* Home section */
+  .home {
+    position: relative;
+  }
+
+  .home .home-content {
+    padding-left: 200px !important;
+  }
+
+  .home .small-bg {
+    height: 100vh !important;
+  }
+
+  .home .image img {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+  }
+
+  .home .image .img-fluid {
+    max-width: 34% !important;
+
+
+  }
+
+  .home h1 {
+    font-size: 3.7rem !important;
+    color: rgba(255, 159, 14, 1);
+    font-family: "Playfair Display";
+    font-weight: 600;
+  }
+
+  .home p {
+    font-weight: 200 !important;
+
+  }
+
+  .home .icon-changer {
+    position: relative;
+  }
+
+  .home .camera-icon {
+    background-color: rgba(255, 159, 14, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .home input[type="text"] {
+    background: rgb(234, 233, 233);
+  }
+
+  .home ::placeholder {
+    padding-left: 43px !important;
+    font-size: 14px;
+  }
+
+  .home p {
+    font-family: "Poppins";
+    font-size: 1.2rem;
+  }
+
+  .home label {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+  .home .our-client p {
+    font-family: "josh";
+    font-size: 0.9rem;
+    font-weight: 100 !important;
+  }
+
+
+
+  /* Videohome section */
+  .Videohome {
+    position: relative;
+  }
+
+  .Videohome .Videohome-content {
+    padding-left: 200px !important;
+  }
+
+  .Videohome .small-bg {
+    height: 100vh !important;
+  }
+
+  .Videohome .image video {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+  }
+
+  .Videohome .image .img-fluid {
+    width: 34% !important;
+    max-width: 50% !important;
+    height: 65% !important;
+    max-height: 100% !important;
+    object-fit: cover !important;
+  }
+  .Videohome .img-outer {
+    position: relative;
+  }
+
+  .Videohome .image img {
+    position: absolute;
+    top: 10px !important;
+    left:5px;
+    z-index: 2;
+  }
+
+  .Videohome a .playbt {
+    width: 100px;
+  }
+
+
+  .Videohome h1 {
+    font-size: 3.7rem !important;
+    color: rgba(255, 159, 14, 1);
+    font-family: "Playfair Display";
+    font-weight: 600;
+  }
+
+  .Videohome p {
+    font-weight: 200 !important;
+  }
+
+  .Videohome .icon-changer {
+    position: relative;
+  }
+
+  .Videohome .camera-icon {
+    background-color: rgba(255, 159, 14, 1);
+    position: absolute;
+    top: 0;
+    left: 77% !important;
+  }
+
+  .Videohome input[type="text"] {
+    background: rgb(21, 20, 20);
+  }
+
+  .Videohome ::placeholder {
+    padding-left: 43px !important;
+    font-size: 14px;
+  }
+
+  .Videohome p {
+    font-family: "Poppins";
+    font-size: 1.2rem;
+  }
+
+  .Videohome label {
+    font-family: "Poppins";
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+
+  .Videohome .our-client p {
+    font-family: "josh";
+    font-size: 0.9rem;
+    font-weight: 100 !important;
+  }
+
+  /*  =============== About ===================== */
+  .About {
+    min-height: 100vh !important;
+    background-color: rgb(103, 103, 103) !important;
+  }
+
+  .About .heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.4rem;
+    font-weight: 200;
+    word-spacing: 10%;
+  }
+
+  .About .container {
+    padding: 80px;
+  }
+
+  .About .About-img {
+    position: relative;
+  }
+
+  .About .About-img .img1 {
+    position: absolute;
+    top: 5.5rem;
+    left: 180px !important;
+  }
+
+  .About .About-img .img2 {
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    z-index: 1;
+  }
+
+  .About .About-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.4rem;
+    font-weight: 200;
+    word-spacing: 10%;
+  }
+
+  .About .About-content p {
+    font-weight: 100;
+    font-size: 0.9rem;
+    line-height: 24px;
+  }
+
+
+  /* ===================== Portfolio ======================== */
+
+  .portfolio {
+    background: url("portBackground.png");
+  }
+
+  .portfolio .container {
+    padding: 60px;
+  }
+
+  .portfolio img {
+    min-width: 22%;
+  }
+
+  .portfolio .portfolio-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .portfolio .portfolio-content {
+    font-size: 1rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    font-family: "Poppins";
+
+  }
+
+  .portfolio .bt {
+    font-family: "Playfair Display", serif;
+    font-size: 0.9rem;
+  }
+
+  /*  ============================ Videos =================== */
+  .videos {
+    background: rgba(0, 0, 0, 0.424) url("Videosbg.png") no-repeat;
+    background-position: 80% 100%;
+    background-size: auto;
+  }
+
+  .videos-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+
+  .videos img {
+    width: 85%;
+  }
+
+  .videos .videos-content h1 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    word-spacing: 2px;
+    font-family: "Playfair Display", serif;
+  }
+
+  .videos .videos-content p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    font-family: "Poppins";
+  }
+
+  .videos .videos-content .bt {
+    font-family: "Playfair Display";
+    word-spacing: 2px;
+  }
+
+  /* ============================ services ============================== */
+  .services {
+    background-color: rgb(103, 103, 103);
+  }
+
+  .services .services-heading h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+  }
+
+  .services .services-content h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: rgba(255, 159, 14, 1);
+  }
+
+  .services .services-content p {
+    font-size: 1rem;
+    word-spacing: 2px;
+    font-family: "Poppins";
+  }
+
+  .services .services-content .dollor {
+    font-size: 2rem;
+    font-family: "sans-serif";
+  }
+
+  .services .box {
+    border: 0px dashed rgba(255, 159, 14, 0.305);
+    border-width: 2.5px;
+    background-color: rgba(9, 9, 9, 0.134);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out all;
+  }
+
+  .services .box:hover {
+    border-width: 0px;
+    transform: scale(1.05);
+  }
+
+  .services .services-content .btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: large;
+    background: rgba(255, 159, 14, 1);
+    border: none;
+    padding: 10px 20px 10px 20px !important;
+
+  }
+
+
+
+  /* ===================== contactus =================== */
+  .contactus {
+    background: url("contactBg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    padding: 60px;
+  }
+
+  /* testimonial */
+  .testimonial .box img {
+    position: absolute;
+    top: -40px;
+    left: -40px !important;
+  }
+
+  .testimonial .box .img-fluid {
+    width: 15%;
+  }
+
+}
+
+@media (min-width: 1880px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .home {
+    position: relative;
+  }
+
+  .home .small-bg {
+    height: 100vh;
+  }
+
+  .home .image img {
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .home .image .img-fluid {
+    max-width: 28% !important;
+  }
+
+
+  .Videohome {
+    position: relative;
+  }
+
+  .Videohome .small-bg {
+    height: 100vh;
+  }
+
+  .Videohome .image video {
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .Videohome .image .img-fluid {
+    max-width: 28% !important;
+    height: 63% !important;
+    max-height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  .About .About-content h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 2rem;
+    word-spacing: 5%;
+  }
+
+
+
+}
