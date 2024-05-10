@@ -79,25 +79,25 @@ function Navbar() {
           <div className="collapse navbar-collapse justify-content-lg-center" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0 text-white d-flex justify-content-center align-items-center gap-2">
               <li className="nav-item">
-                <Link className="nav-link" to="/">HOME</Link>
+                <Link className="nav-link" to="/photo-studio/">HOME</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="about">ABOUT US</Link>
+                <Link className="nav-link" aria-current="page" to="/photo-studio/about">ABOUT US</Link>
               </li>
               <li className="nav-item" >
-                <Link className="nav-link" to="videos">VIDEOS</Link>
+                <Link className="nav-link" to="/photo-studio/videos">VIDEOS</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/portfolio">PORTFOLIO</Link>
+                <Link className="nav-link" to="/photo-studio/portfolio">PORTFOLIO</Link>
               </li>
               <li className="nav-item" >
-                <Link className="nav-link" to="/services">SERVICES</Link>
+                <Link className="nav-link" to="/photo-studio/services">SERVICES</Link>
               </li>
               <li className="nav-item" >
-                <Link className="nav-link" to="testimonial">TESTIMONIAL</Link>
+                <Link className="nav-link" to="/photo-studio/testimonial">TESTIMONIAL</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="contactUs">CONTACT US</Link>
+                <Link className="nav-link" to="/photo-studio/contactUs">CONTACT US</Link>
               </li>
             </ul>
           </div>
