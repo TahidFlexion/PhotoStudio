@@ -79,25 +79,25 @@ function Navbar() {
           <div className="collapse navbar-collapse justify-content-lg-center" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0 text-white d-flex justify-content-center align-items-center gap-2">
               <li className="nav-item">
-                <Link className="nav-link" to="/photo-studio/">HOME</Link>
+                <Link className="nav-link" to="/PhotoStudio/">HOME</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/photo-studio/about">ABOUT US</Link>
+                <Link className="nav-link" aria-current="page" to="/PhotoStudio/about">ABOUT US</Link>
               </li>
               <li className="nav-item" >
-                <Link className="nav-link" to="/photo-studio/videos">VIDEOS</Link>
+                <Link className="nav-link" to="/PhotoStudio/videos">VIDEOS</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/photo-studio/portfolio">PORTFOLIO</Link>
+                <Link className="nav-link" to="/PhotoStudio/portfolio">PORTFOLIO</Link>
               </li>
               <li className="nav-item" >
-                <Link className="nav-link" to="/photo-studio/services">SERVICES</Link>
+                <Link className="nav-link" to="/PhotoStudio/services">SERVICES</Link>
               </li>
               <li className="nav-item" >
-                <Link className="nav-link" to="/photo-studio/testimonial">TESTIMONIAL</Link>
+                <Link className="nav-link" to="/PhotoStudio/testimonial">TESTIMONIAL</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/photo-studio/contactUs">CONTACT US</Link>
+                <Link className="nav-link" to="/PhotoStudio/contactUs">CONTACT US</Link>
               </li>
             </ul>
           </div>
@@ -117,10 +117,10 @@ function Navbar() {
               <Link className="nav-link" to="/" onClick={toggleNavbar}>HOME</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="about" onClick={toggleNavbar}>ABOUT US</Link>
+              <Link className="nav-link" aria-current="page" to="/about" onClick={toggleNavbar}>ABOUT US</Link>
             </li>
             <li className="nav-item" >
-              <Link className="nav-link" to="videos" onClick={toggleNavbar}>VIDEOS</Link>
+              <Link className="nav-link" to="/videos" onClick={toggleNavbar}>VIDEOS</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/portfolio" onClick={toggleNavbar}>PORTFOLIO</Link>

@@ -25,7 +25,7 @@ function App() {
     <>
     <Navbar/>
     <Routes>
-      <Route path="/photo-studio/" element={   <div style={{backgroundColor:"rgb(48, 47, 48)"}}>
+      <Route path="/PhotoStudio/" element={   <div style={{backgroundColor:"rgb(48, 47, 48)"}}>
       {
         show ?
         <><Home handleShow={handleShow}/>
@@ -38,12 +38,12 @@ function App() {
         </>:<VideoHome handlehide={handlehide}/>
       }
     </div>}/>
-      <Route path="/photo-studio/about" element={ <About />} />
-      <Route path="/photo-studio/videos" element={ <Videos />} />
-      <Route path="/photo-studio/portfolio" element={ <Portfolio />} />
-      <Route path="/photo-studio/services" element={ <Services />} />
-      <Route path="/photo-studio/testimonial" element={ <Testimonial />} />
-      <Route path="/photo-studio/contactus" element={ <ContactUs />} />
+      <Route path="/PhotoStudio/about" element={ <About />} />
+      <Route path="/PhotoStudio/videos" element={ <Videos />} />
+      <Route path="/PhotoStudio/portfolio" element={ <Portfolio />} />
+      <Route path="/PhotoStudio/services" element={ <Services />} />
+      <Route path="/PhotoStudio/testimonial" element={ <Testimonial />} />
+      <Route path="/PhotoStudio/contactus" element={ <ContactUs />} />
     </Routes>
     <Footer/>
     </>
