@@ -1896,7 +1896,7 @@ footer .icon:hover img {
     width: 14%;
   }
   /*  Contactus */  
-  .contactus {
+    .contactus {
     background: url("/images/contactBg.png");
     background-repeat: no-repeat;
     background-size: 100% 120%;
@@ -2978,6 +2978,15 @@ footer .icon:hover img {
     padding: 10px 20px 10px 20px !important;
 
   }
+  /* Testimonial  */
+  .testimonial {
+    background: url("testimonialbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 104%;
+    padding: 40px;
+    height: 100vh;
+  }
 
 }
 
@@ -3300,7 +3309,15 @@ footer .icon:hover img {
 
   }
 
-  /* testimonial */
+    /* Testimonial  */
+    .testimonial {
+      background: url("testimonialbg.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 104%;
+      padding: 40px;
+      height: 100vh;
+    }
   .testimonial .top-img {
     width: 50%;
   }
@@ -3674,9 +3691,22 @@ footer .icon:hover img {
 
 
   /* ===================== contactus =================== */
+  .contactus {
+    background: url("contactBg.png") !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 120% !important;
+    padding: 60px;
+  }
 
-
-  /* testimonial */
+    /* Testimonial  */
+    .testimonial {
+      background: url("testimonialbg.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 104%;
+      padding: 40px;
+      height: 100vh;
+    }
   .testimonial .box img {
     position: absolute;
     top: -40px;
@@ -3744,7 +3774,15 @@ footer .icon:hover img {
     font-size: 2rem;
     word-spacing: 5%;
   }
-
+    /* Testimonial  */
+    .testimonial {
+      background: url("testimonialbg.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 104%;
+      padding: 40px;
+      height: 100vh;
+    }
 
 
 }
