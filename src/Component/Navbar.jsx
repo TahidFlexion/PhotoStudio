@@ -114,25 +114,25 @@ function Navbar() {
         <div className="offcanvas-body ">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0 text-white d-flex justify-content-center align-items-center gap-4">
             <li className="nav-item ">
-              <Link className="nav-link" to="/" onClick={toggleNavbar}>HOME</Link>
+              <Link className="nav-link" to="/PhotoStudio/" onClick={toggleNavbar}>HOME</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/about" onClick={toggleNavbar}>ABOUT US</Link>
+              <Link className="nav-link" aria-current="page" to="/PhotoStudio/about" onClick={toggleNavbar}>ABOUT US</Link>
             </li>
             <li className="nav-item" >
-              <Link className="nav-link" to="/videos" onClick={toggleNavbar}>VIDEOS</Link>
+              <Link className="nav-link" to="/PhotoStudio/videos" onClick={toggleNavbar}>VIDEOS</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/portfolio" onClick={toggleNavbar}>PORTFOLIO</Link>
+              <Link className="nav-link" to="/PhotoStudio/portfolio" onClick={toggleNavbar}>PORTFOLIO</Link>
             </li>
             <li className="nav-item" >
-              <Link className="nav-link" to="/services" onClick={toggleNavbar}>SERVICES</Link>
+              <Link className="nav-link" to="/PhotoStudio/services" onClick={toggleNavbar}>SERVICES</Link>
             </li>
             <li className="nav-item" >
-              <Link className="nav-link" to="/testimonial" onClick={toggleNavbar}>TESTIMONIAL</Link>
+              <Link className="nav-link" to="/PhotoStudio/testimonial" onClick={toggleNavbar}>TESTIMONIAL</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contactUs" onClick={toggleNavbar}>CONTACT US</Link>
+              <Link className="nav-link" to="/PhotoStudio/contactUs" onClick={toggleNavbar}>CONTACT US</Link>
             </li>
           </ul>
         </div>
