@@ -642,6 +642,7 @@ a {
   padding: 60px;
 }
 
+
 .contactus h1 {
   font-size: 3rem;
 }
@@ -1121,6 +1122,14 @@ footer .icon:hover img {
   }
 
   /*  ======================= Testimonial  ==========================*/
+  .testimonial {
+    background: url("/images/testimonialbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 104%;
+    padding: 40px;
+    height: 100vh;
+  }
   .testimonial .videos-heading h1 {
     font-family: "Playfair Display", serif;
     font-size: 1.8rem;
@@ -1187,11 +1196,10 @@ footer .icon:hover img {
 
   /*  ================ Footer =============== */
   .contactus {
-    background: url("contactBg.png");
+    background: url("/images/contactBg.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 120%;
     padding: 10px;
-
   }
 
   .contactus h1 {
@@ -1870,6 +1878,14 @@ footer .icon:hover img {
   }
 
   /* testimonial */
+  .testimonial {
+    background: url("/images/testimonialbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 104%;
+    padding: 40px;
+    height: 100vh;
+  }
   .testimonial .box img {
     position: absolute;
     top: -28px;
@@ -1878,6 +1894,13 @@ footer .icon:hover img {
 
   .testimonial .box .img-fluid {
     width: 14%;
+  }
+  /*  Contactus */  
+  .contactus {
+    background: url("/images/contactBg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    padding: 10px;
   }
 
 }
@@ -3651,12 +3674,7 @@ footer .icon:hover img {
 
 
   /* ===================== contactus =================== */
-  .contactus {
-    background: url("contactBg.png");
-    background-repeat: no-repeat;
-    background-size: 100% 120%;
-    padding: 60px;
-  }
+
 
   /* testimonial */
   .testimonial .box img {
