@@ -2261,7 +2261,14 @@ footer .icon:hover img {
   }
 
   /* =============== Testimonial  ============== */
-
+  .testimonial {
+    background: url("/images/testimonialbg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 104%;
+    padding: 40px;
+    height: 100vh;
+  }
   .testimonial .box {
     border-radius: 20px;
     border: none;
@@ -2289,7 +2296,13 @@ footer .icon:hover img {
   .testimonial .box .img-fluid {
     width: 21%;
   }
-
+/* contactus */
+  .contactus {
+    background: url("/images/contactBg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    padding: 10px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -2453,6 +2466,13 @@ footer .icon:hover img {
     font-size: 0.9rem;
     font-weight: 100 !important;
   }
+  /* contactus */
+  .contactus {
+    background: url("/images/contactBg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    padding: 10px;
+  }
 
   /* ==========================  About ====================================== */
   .About {
@@ -2596,7 +2616,7 @@ footer .icon:hover img {
 
   /* =============== Testimonial  ============== */
   .testimonial {
-    background: url("testimonialbg.png");
+    background: url("/images/testimonialbg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 104%;
@@ -2623,6 +2643,12 @@ footer .icon:hover img {
     background: rgba(0, 0, 0, 0.781) url("Videosbg.png") no-repeat;
     background-position: 80% 100%;
     background-size: auto;
+  }
+  .contactus {
+    background: url("/images/contactBg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    padding: 10px;
   }
 }
 
@@ -2980,12 +3006,19 @@ footer .icon:hover img {
   }
   /* Testimonial  */
   .testimonial {
-    background: url("testimonialbg.png");
+    background: url("/images/testimonialbg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 104%;
     padding: 40px;
     height: 100vh;
+  }
+  /* contactus */
+  .contactus {
+    background: url("/images/contactBg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    padding: 10px;
   }
 
 }
@@ -3308,10 +3341,9 @@ footer .icon:hover img {
     padding: 10px 20px 10px 20px !important;
 
   }
-
     /* Testimonial  */
     .testimonial {
-      background: url("testimonialbg.png");
+      background: url("/images/testimonialbg.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100% 104%;
@@ -3326,7 +3358,13 @@ footer .icon:hover img {
     width: 15%;
   }
 
-
+/* contactus */
+.contactus {
+  background: url("/images/contactBg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  padding: 10px;
+}
   /* Videos */
   .videos {
     background: rgba(0, 0, 0, 0.781) url("Videosbg.png") no-repeat;
@@ -3692,15 +3730,15 @@ footer .icon:hover img {
 
   /* ===================== contactus =================== */
   .contactus {
-    background: url("contactBg.png") !important;
-    background-repeat: no-repeat !important;
-    background-size: 100% 120% !important;
+    background: url("/images/contactBg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
     padding: 60px;
   }
 
     /* Testimonial  */
     .testimonial {
-      background: url("testimonialbg.png");
+      background: url("/images/testimonialbg.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100% 104%;
@@ -3776,13 +3814,18 @@ footer .icon:hover img {
   }
     /* Testimonial  */
     .testimonial {
-      background: url("testimonialbg.png");
+      background: url("/images/testimonialbg.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100% 104%;
       padding: 40px;
       height: 100vh;
     }
-
-
+    /* contactus */
+  .contactus {
+    background: url("/images/contactBg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    padding: 10px;
+  }
 }
