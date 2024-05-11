@@ -2623,7 +2623,9 @@ footer .icon:hover img {
     padding: 40px;
     height: 100vh;
   }
-
+.testimonial .box p {
+  font-size: 15px !important;
+}
   .testimonial .testimonial .box {
     border-radius: 20px;
     border: none;
@@ -3350,6 +3352,9 @@ footer .icon:hover img {
       padding: 40px;
       height: 100vh;
     }
+    .testimonial .box p {
+      font-size: 17px !important;
+    }
   .testimonial .top-img {
     width: 50%;
   }
@@ -3745,6 +3750,9 @@ footer .icon:hover img {
       background-size: 100% 104%;
       padding: 40px;
       height: 100vh;
+    }
+    .testimonial .box p {
+      font-size: 18px !important;
     }
   .testimonial .box img {
     position: absolute;
