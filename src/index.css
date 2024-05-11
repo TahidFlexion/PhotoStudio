@@ -398,7 +398,7 @@ a {
 }
 
 .videos {
-  background: rgba(8, 8, 8, 0.004) url("Videosbg.png") no-repeat;
+  background: rgba(8, 8, 8, 0.425) url("Videosbg.png") no-repeat;
   background-position: 80% 100%;
   background-size: auto;
 }
@@ -1189,7 +1189,7 @@ footer .icon:hover img {
 
   /* Videos */
   .videos {
-    background: rgba(0, 0, 0, 0.781) url("Videosbg.png") no-repeat;
+    background: rgba(0, 0, 0, 0.781) url("/images/Videosbg.png") no-repeat;
     background-position: 80% 100%;
     background-size: auto;
   }
@@ -1775,9 +1775,9 @@ footer .icon:hover img {
   }
 
   /*  ============================ Videos =================== */
-  /* Videos */
-  .videos {
-    background: rgba(0, 0, 0, 0.781) url("Videosbg.png") no-repeat;
+   /* Videos */
+   .videos {
+    background: rgba(0, 0, 0, 0.781) url("/images/Videosbg.png") no-repeat;
     background-position: 80% 100%;
     background-size: auto;
   }
@@ -2162,7 +2162,7 @@ footer .icon:hover img {
   /*  ============================ Videos =================== */
   /* Videos */
   .videos {
-    background: rgba(0, 0, 0, 0.781) url("Videosbg.png") no-repeat;
+    background: rgba(0, 0, 0, 0.781) url("/images/Videosbg.png") no-repeat;
     background-position: 80% 100%;
     background-size: auto;
   }
@@ -2640,7 +2640,7 @@ footer .icon:hover img {
 
   /* Videos */
   .videos {
-    background: rgba(0, 0, 0, 0.781) url("Videosbg.png") no-repeat;
+    background: rgba(0, 0, 0, 0.781) url("/images/Videosbg.png") no-repeat;
     background-position: 80% 100%;
     background-size: auto;
   }
@@ -2910,7 +2910,7 @@ footer .icon:hover img {
   /*  ============================ Videos =================== */
   /* Videos */
   .videos {
-    background: rgba(0, 0, 0, 0.575) url("Videosbg.png") no-repeat;
+    background: rgba(0, 0, 0, 0.781) url("/images/Videosbg.png") no-repeat;
     background-position: 80% 100%;
     background-size: auto;
   }
@@ -3365,9 +3365,9 @@ footer .icon:hover img {
   background-size: 100% 120%;
   padding: 10px;
 }
-  /* Videos */
-  .videos {
-    background: rgba(0, 0, 0, 0.781) url("Videosbg.png") no-repeat;
+   /* Videos */
+   .videos {
+    background: rgba(0, 0, 0, 0.781) url("/images/Videosbg.png") no-repeat;
     background-position: 80% 100%;
     background-size: auto;
   }
@@ -3637,8 +3637,9 @@ footer .icon:hover img {
   }
 
   /*  ============================ Videos =================== */
+  /* Videos */
   .videos {
-    background: rgba(0, 0, 0, 0.424) url("Videosbg.png") no-repeat;
+    background: rgba(0, 0, 0, 0.781) url("/images/Videosbg.png") no-repeat;
     background-position: 80% 100%;
     background-size: auto;
   }
@@ -3812,6 +3813,18 @@ footer .icon:hover img {
     font-size: 2rem;
     word-spacing: 5%;
   }
+    /* Videos */
+    .videos {
+      background: rgba(0, 0, 0, 0.781) url("/images/Videosbg.png") no-repeat;
+      background-position: 80% 100%;
+      background-size: auto;
+    }  
+    /* Videos */
+    .videos {
+      background: rgba(0, 0, 0, 0.781) url("/images/Videosbg.png") no-repeat;
+      background-position: 80% 100%;
+      background-size: auto;
+    }
     /* Testimonial  */
     .testimonial {
       background: url("/images/testimonialbg.png");
@@ -3826,6 +3839,6 @@ footer .icon:hover img {
     background: url("/images/contactBg.png");
     background-repeat: no-repeat;
     background-size: 100% 120%;
-    padding: 10px;
+    padding: 60px;
   }
 }
