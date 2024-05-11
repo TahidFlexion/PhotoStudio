@@ -5,7 +5,7 @@ function ContactUs() {
         <div className="contactus">
         <div className='container py-5'>
             <div className="row justify-content-center">
-                <div className=" col-xxl-6 col-xxl-5 col-lg-7 col-md-8 col-sm-10 col-12">
+                <div className=" col-xxl-6 col-xxl-5 col-lg-7 col-md-10 col-sm-12 col-12">
                     <div className="form-outer text-center  p-5">
                         <h1>Get In Touch With Us :</h1>
                         <form className='mt-4'>
