@@ -7,7 +7,7 @@ function Home({ handleShow }) {
                 <div className="container-fluid" >
                     <div className="row ">
                         <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 text-white small-bg" style={{ backgroundColor: " rgba(48, 47, 48, 0.959)" }}>
-                            <div className='image  ' >
+                            <div className='image' >
                                 <img src="home.png" alt="" className='img-fluid rounded-4 shadow' />
                             </div>
                         </div>
@@ -17,7 +17,7 @@ function Home({ handleShow }) {
                                     <h1 className='fs-1 tracking-in-contract-bck'>Photography <br /> is Joy</h1>
                                 </div>
 
-                                <p className='py-xxl-5 py-xxl-2 py-xl-2 py-lg-4 py-md-3 py-sm-2 py-2 col-xxl-7'>Uses light to create photographs that are about size and quality than and white photography</p>
+                                <p className='py-xxl-5 py-xxl-2 py-xl-2 py-lg-4 py-md-3 py-sm-2 py-2 col-xxl-8'>Uses light to create photographs that are about size and quality than and white photography</p>
                                 <div className='py-xxl-2 py-xl-2 py-lg-2 py-md-2 py-sm-2 py-2 '>
                                     <label htmlFor="a1">
                                         <input type="checkbox" checked="true" className='me-2' id='a1' />

@@ -66,7 +66,7 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg bg-secondary p-xxl-3 fixed-top shadow">
         <div className="container-fluid">
-          <a className="navbar-brand ms-xxl-4" href="#">
+          <a className="navbar-brand  ms-xxl-4  ms-xl-4 ms-lg-4 ms-md-4 ms-sm-3 m-2 " href="#">
             <img src="logo.png" alt="Company Logo" className="img-fluid" />
           </a>
           <button

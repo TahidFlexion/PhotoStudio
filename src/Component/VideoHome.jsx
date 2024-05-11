@@ -41,9 +41,9 @@ function VideoHome({ handlehide }) {
                         </div>
 
                         <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 pt-xxl-5 pt-xxl-3 pt-xl-3 pt-lg-3 pt-md-4 pt-sm-3 pt-3 d-flex justify-content-center text-white videohome-content" style={{ backgroundColor: "rgb(103, 103, 103)" }}>
-                            <div className='d-flex flex-column gap-xxl-2 fw-light ms-xxl-5 ms-xl-5 ms-lg-5  ms-md-5 ms-sm-2 ms-2'>
+                            <div className='d-flex flex-column gap-xxl-2 fw-light ms-xxl-5 ms-xl-5 ms-lg-5  ms-md-5 ms-sm-2 ms-1'>
                                 <h1 className='fs-1 '>Crafting videos with <br /> passion and purpose.</h1>
-                                <p className='py-xxl-5 py-xxl-2 py-xl-2 py-lg-4 py-md-4 py-sm-2 py-2 col-xxl-7'>Uses light to create photographs that are about size and quality than and white photography</p>
+                                <p className='py-xxl-5 py-xxl-2 py-xl-3 py-lg-4 py-md-4 py-sm-2 py-2 col-xxl-7 col-xl-8'>Uses light to create photographs that are about size and quality than and white photography</p>
                                 <div className='py-xxl-2 py-xl-2 py-lg-2 py-md-2 py-sm-2 py-2'>
                                     <label htmlFor="b1">
                                         <input type="checkbox" checked="true" className='me-2' id='b1' />

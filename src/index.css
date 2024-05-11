@@ -2246,6 +2246,16 @@ footer .icon:hover img {
     color: rgb(130, 129, 129) !;
     position: relative;
   }
+  .testimonial .box p{
+    font-size: 13px;
+    line-height: normal;
+  }
+  .testimonial .box h6 {
+    font-size: 15px;
+  }
+  .testimonial .box h6 p {
+ font-size: 13px;
+  }
 
   .testimonial .box img {
     position: absolute;
@@ -2629,7 +2639,10 @@ footer .icon:hover img {
   }
 
   .home .image .img-fluid {
-    width: 40% !important;
+    width: 38% !important;
+    max-width: 50% !important;
+    height: 50% !important;
+    max-height: 100% !important;;
   }
 
   .home h1 {
@@ -2699,7 +2712,7 @@ footer .icon:hover img {
   }
 
   .Videohome .image .img-fluid {
-    width: 40% !important;
+    width: 38% !important;
     max-width: 50% !important;
     height: 60% !important;
     max-height: 100% !important;
@@ -2980,14 +2993,17 @@ footer .icon:hover img {
 
   .home .image img {
     position: absolute;
-    top: 10%;
-    left: 5%;
+    top: 8%;
+    left: 8%;
     z-index: 1;
   }
 
   .home .image .img-fluid {
-    width: 38% !important;
-  }
+    width: 32% !important;
+    max-width: 50% !important;
+    height: 65% !important;
+    max-height: 100% !important;
+    object-fit: cover !important;  }
 
   .home h1 {
     font-size: 3.3rem !important;
@@ -3041,7 +3057,7 @@ footer .icon:hover img {
   }
 
   .Videohome .videohome-content {
-    padding-left: 120px;
+    padding-left: 80px !important;
   }
 
   .Videohome .small-bg {
@@ -3051,14 +3067,14 @@ footer .icon:hover img {
   .Videohome .image video {
     position: absolute;
     top: 10%;
-    left: 5%;
+    left: 8%;
     z-index: 1;
   }
 
   .Videohome .image .img-fluid {
-    width: 38% !important;
+    width: 32% !important;
     max-width: 50% !important;
-    height: 65% !important;
+    height: 64% !important;
     max-height: 100% !important;
     object-fit: cover !important;
   }
@@ -3070,7 +3086,7 @@ footer .icon:hover img {
   .Videohome .image img {
     position: absolute;
     top: 35px !important;
-    right:25px;
+    left:-45px;
     z-index: 2;
   }
 
@@ -3152,7 +3168,7 @@ footer .icon:hover img {
 
   .About .About-img .img2 {
     position: absolute;
-    top: 0px;
+    top: 3rem;
     right: -30px;
     z-index: 1;
   }
@@ -3262,9 +3278,12 @@ footer .icon:hover img {
   }
 
   /* testimonial */
+  .testimonial .top-img {
+    width: 50%;
+  }
 
   .testimonial .box .img-fluid {
-    width: 18%;
+    width: 15%;
   }
 
 
@@ -3293,7 +3312,7 @@ footer .icon:hover img {
   }
 
   .home .home-content {
-    padding-left: 200px !important;
+    padding-left: 260px !important;
   }
 
   .home .small-bg {
@@ -3308,8 +3327,10 @@ footer .icon:hover img {
   }
 
   .home .image .img-fluid {
-    max-width: 34% !important;
-
+    width: 34% !important;
+    max-width: 50% !important;
+    height: 59% !important;
+    max-height: 100% !important;
 
   }
 
@@ -3369,7 +3390,7 @@ footer .icon:hover img {
     position: relative;
   }
 
-  .Videohome .Videohome-content {
+  .Videohome .videohome-content {
     padding-left: 200px !important;
   }
 
@@ -3397,8 +3418,8 @@ footer .icon:hover img {
 
   .Videohome .image img {
     position: absolute;
-    top: 10px !important;
-    left:5px;
+    top: 15px !important;
+    left:-5px;
     z-index: 2;
   }
 

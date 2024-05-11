@@ -24,7 +24,7 @@ function Testimonial() {
       <div className='container-fluid'>
         <div className="row">
           <div className='text-head'>
-            <div className="col-xxl-4">
+            <div className="col-xxl-4 top-img">
               <div className='text-end'>
                 <img src="Line.png" alt="" className='img-fluid w-50' />
               </div>
@@ -33,7 +33,7 @@ function Testimonial() {
             </div>
             <div className="left"></div>
             <div className="container">
-              <div className="wrapper py-5 my-5 d-flex justify-content-center align-content-center ">
+              <div className="wrapper py-xxl-5 my-xxl-5 d-flex justify-content-center align-content-center ">
                 <Swiper
                   slidesPerView={1}
                   spaceBetween={20}
@@ -56,8 +56,8 @@ function Testimonial() {
 
 
 
-<SwiperSlide className='p-xxl-5 p-xl-5 p-lg-5 p-md-5 p-sm-4 p-1 '>  <div className="  border-0 " id='first'>
-                    <div className=" col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 box p-xxl-4 p-xl-4 p-lg-4 p-md-4 p-sm-3 p-4 ">
+<SwiperSlide className='p-xxl-5 p-xl-5 p-lg-5 p-md-5 p-sm-4 p-3 '>  <div className="  border-0 " id='first'>
+                    <div className=" col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 box p-xxl-4 p-xl-4 p-lg-4 p-md-2 p-sm-3 p-4 ">
                       <img src="test-img1.png" alt="" className='img-fluid' />
                       <p className='py-xxl-3 py-xl-3 py-lg-2 py-md-1 py-sm-3 py-1'> "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."</p>
                       <h6>Dinesh Singh</h6>
@@ -67,8 +67,8 @@ function Testimonial() {
                   </SwiperSlide>
 
 
-                 <SwiperSlide className='p-xxl-5 p-xl-5 p-lg-5 p-md-5 p-sm-4 p-1 '>  <div className="  border-0 " id='first'>
-                    <div className=" col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 box p-xxl-4 p-xl-4 p-lg-4 p-md-4 p-sm-3 p-4 ">
+                 <SwiperSlide className='p-xxl-5 p-xl-5 p-lg-5 p-md-5 p-sm-4 p-3 '>  <div className="  border-0 " id='first'>
+                    <div className=" col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 box p-xxl-4 p-xl-4 p-lg-4 p-md-2 p-sm-3 p-4 ">
                       <img src="test-img1.png" alt="" className='img-fluid' />
                       <p className='py-xxl-3 py-xl-3 py-lg-2 py-md-1 py-sm-3 py-1'> "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."</p>
                       <h6>Dinesh Singh</h6>
@@ -76,8 +76,8 @@ function Testimonial() {
                     </div>
                   </div>
                   </SwiperSlide>
-                  <SwiperSlide className='p-xxl-5 p-xl-5 p-lg-5 p-md-5 p-sm-4 p-1 '>  <div className="  border-0 " id='first'>
-                    <div className=" col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 box p-xxl-4 p-xl-4 p-lg-4 p-md-4 p-sm-3 p-4 ">
+                  <SwiperSlide className='p-xxl-5 p-xl-5 p-lg-5 p-md-5 p-sm-4 p-3 '>  <div className="  border-0 " id='first'>
+                    <div className=" col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 box p-xxl-4 p-xl-4 p-lg-4 p-md-2 p-sm-3 p-4 ">
                       <img src="test-img1.png" alt="" className='img-fluid' />
                       <p className='py-xxl-3 py-xl-3 py-lg-2 py-md-1 py-sm-3 py-1'> "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."</p>
                       <h6>Dinesh Singh</h6>
@@ -85,8 +85,8 @@ function Testimonial() {
                     </div>
                   </div>
                   </SwiperSlide>
-                  <SwiperSlide className='p-xxl-5 p-xl-5 p-lg-5 p-md-5 p-sm-4 p-1 '>  <div className="  border-0 " id='first'>
-                    <div className=" col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 box p-xxl-4 p-xl-4 p-lg-4 p-md-4 p-sm-3 p-4 ">
+                  <SwiperSlide className='p-xxl-5 p-xl-5 p-lg-5 p-md-5 p-sm-4 p-3 '>  <div className="  border-0 " id='first'>
+                    <div className=" col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 box p-xxl-4 p-xl-4 p-lg-4 p-md-2 p-sm-3 p-4 ">
                       <img src="test-img1.png" alt="" className='img-fluid' />
                       <p className='py-xxl-3 py-xl-3 py-lg-2 py-md-1 py-sm-3 py-1'> "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."</p>
                       <h6>Dinesh Singh</h6>
@@ -94,8 +94,8 @@ function Testimonial() {
                     </div>
                   </div>
                   </SwiperSlide>
-                  <SwiperSlide className='p-xxl-5 p-xl-5 p-lg-5 p-md-5 p-sm-4 p-1 '>  <div className="  border-0 " id='first'>
-                    <div className=" col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 box p-xxl-4 p-xl-4 p-lg-4 p-md-4 p-sm-3 p-4 ">
+                  <SwiperSlide className='p-xxl-5 p-xl-5 p-lg-5 p-md-5 p-sm-4 p-3 '>  <div className="  border-0 " id='first'>
+                    <div className=" col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 box p-xxl-4 p-xl-4 p-lg-4 p-md-2 p-sm-3 p-4 ">
                       <img src="test-img1.png" alt="" className='img-fluid' />
                       <p className='py-xxl-3 py-xl-3 py-lg-2 py-md-1 py-sm-3 py-1'> "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."</p>
                       <h6>Dinesh Singh</h6>
